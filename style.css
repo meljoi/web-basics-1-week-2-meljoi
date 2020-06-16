@@ -1,0 +1,55 @@
+body {
+  background-image: url("image/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+//*navigation*//
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  display: inline-flex;
+  margin-right: 20px;
+  margin-bottom: 150px;
+}
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+//*info*//
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info {
+  color: grey;
+  padding-left: 5%;
+  padding-right: 10%;
+  margin-right: 550px;
+  border-right: 2px solid grey;
+  height: 300px;
+}
+
+.info p {
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.info h1 {
+  padding-top: 10%;
+}
+
+.me {
+  border: solid grey 2px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-image: url('image/flower.jpg');
+  background-size: cover;
+}
